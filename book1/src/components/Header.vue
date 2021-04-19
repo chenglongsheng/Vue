@@ -8,6 +8,7 @@
       <router-link to="/work"><el-button id="function" icon="el-icon-edit">工作中心</el-button></router-link>
       <router-link to="/student"><el-button id="function" icon="el-icon-search">学生信息</el-button></router-link>
       <router-link to="/book"><el-button id="function" icon="el-icon-search">图书信息</el-button></router-link>
+      <router-link to="/cnnode"><el-button id="function" icon="el-icon-search">node论坛</el-button></router-link>
     </div>
   </div>
 </template>

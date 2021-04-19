@@ -7,6 +7,7 @@ import Login from './components/Login.vue'
 import Work from './components/Work.vue'
 import Student from './components/Student.vue'
 import Book from './components/Book.vue'
+import CNNode from './components/CNNode.vue'
 
 Vue.config.productionTip = false
 Vue.use(ElementUI)
@@ -28,6 +29,10 @@ const routes = [
   {
     path:'/book',
     component:Book
+  },
+  {
+    path:'/cnnode',
+    component:CNNode
   }
 ]
 
