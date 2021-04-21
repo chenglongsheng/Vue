@@ -21,13 +21,14 @@
         clearable
       ></el-input>
       <div id="submit">
-        <el-button id="submitButton">登录</el-button>
+        <el-button id="submitButton" @click="loginSystem">登录</el-button>
       </div>
     </el-card>
   </div>
 </template>
 
 <script>
+import Axios from 'axios'
 export default {
   name: "Login",
   data() {
@@ -36,6 +37,13 @@ export default {
       password: "",
     };
   },
+  methods:{
+    loginSystem(){
+      Axios.get('/login').then(function(response){
+        console.log(response)
+      })
+    }
+  }
 };
 </script>
 
