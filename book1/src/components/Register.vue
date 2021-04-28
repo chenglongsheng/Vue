@@ -35,7 +35,8 @@ export default {
         Axios.get('http://localhost:3000/register',{
             params:this.newUser
         }).then(function(response){
-          alert(response.data)
+          // alert(response.data)
+          console.log(response.data)
         })
       }
     }
